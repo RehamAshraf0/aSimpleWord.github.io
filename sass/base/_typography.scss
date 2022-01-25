@@ -1,0 +1,186 @@
+.heading-1 {
+  font-family: "Bitter", serif;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+
+  // margin-top: 2.5rem;
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 5rem;
+    line-height: 6.4rem;
+  }
+
+  &--white {
+    color: var(--white-color);
+  }
+}
+
+.heading-2 {
+  font-family: "Bitter", serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 600;
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+  }
+
+  &--bold {
+    font-weight: 800;
+  }
+}
+
+.heading-3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 700;
+
+  @media only screen and (min-width: 600px) {
+    text-align: center;
+  }
+  @media only screen and (min-width: 1000px) {
+    font-size: 3rem;
+  }
+}
+
+.heading-4 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+
+  @media only screen and (min-width: 375px) {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+  }
+
+  &--white {
+    color: var(--white-color);
+  }
+
+  &--fw-light {
+    font-weight: 400;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+.heading-5 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 800;
+
+  @media only screen and (min-width: 900px) {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+
+  @media only screen and (min-width: 1100px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+.par {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  &--md {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+
+    @media only screen and (min-width: 1240px) {
+      font-size: 1.8rem;
+      line-height: 1.92rem;
+    }
+  }
+
+  &--2 {
+    font-weight: 600;
+  }
+
+  &--3 {
+    font-weight: 500;
+  }
+}
+
+.par-2 {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+
+  @media only screen and (min-width: 1240px) {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+}
+
+.b-section-2__text {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  @media only screen and (min-width: 600px) {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+  }
+
+  @media only screen and (min-width: 1100px) {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+  }
+
+  &--sm {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+
+    @media only screen and (min-width: 1100px) {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+
+  &--colored {
+    color: var(--primary-color);
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: var(--primary-color-light);
+      cursor: pointer;
+    }
+  }
+}
+
+.text-sm {
+  font-size: 1.3rem;
+  font-weight: 600;
+  &--blue {
+    color: var(--primary-color);
+  }
+
+  @media only screen and (min-width: 1400px) {
+    font-size: 1.8rem;
+  }
+}
+
+.text-md {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+}
